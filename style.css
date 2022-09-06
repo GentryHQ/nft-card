@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+  --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+  --very-dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--very-dark-blue-main-bg);
+}
+
+/* Utility Classes */
+.container {
+  max-inline-size: 600px;
+  padding-inline: 30px;
+  margin-inline: auto;
+  margin-block: 100px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Reset */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+p {
+  font-size: 1.13rem;
+  color: var(--soft-blue);
+  font-weight: 300;
+}
+
+/* Wrapper */
+.wrapper {
+  background-color: var(--very-dark-blue-card-bg);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 20px rgba(0, 0, 0, 0.068);
+}
+
+/* content img */
+.content__img {
+  position: relative;
+}
+
+.nft__img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.view {
+  position: absolute;
+  background-color: hsla(178, 100%, 50%, 0.336);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.view:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.view_img {
+  width: 70px;
+}
+
+/* content */
+.content {
+  -webkit-padding-before: 20px;
+          padding-block-start: 20px;
+}
+
+.content h1 a {
+  color: var(--white);
+  font-size: 1.88rem;
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  font-weight: 600;
+}
+
+.content h1 a:hover {
+  color: var(--cyan);
+}
+
+.content__info.flex {
+  margin-block: 20px;
+  justify-content: space-between;
+}
+
+.content__eth p {
+  color: var(--cyan);
+  font-weight: 400;
+}
+
+hr {
+  border: 1px solid var(--very-dark-blue-line);
+}
+
+/* Footer */
+.footer {
+  -webkit-padding-before: 20px;
+          padding-block-start: 20px;
+}
+
+.footer.flex {
+  gap: 20px;
+}
+
+.footer img {
+  width: 40px;
+  border: 1px solid var(--white);
+  border-radius: 50px;
+}
+
+.footer a {
+  color: var(--white);
+}
+
+.footer a:hover {
+  color: var(--cyan);
+}
