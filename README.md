@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) by [Afolabi John Ayooluwa](gentry.com.ng). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) by [Afolabi John Ayooluwa](https://www.gentry.com.ng). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -49,8 +49,8 @@ Hover View
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://your-solution-url.com)
-- Live Site URL: [GitHub Page](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/GentryHQ/nft-card)
+- Live Site URL: [GitHub Page](https://gentryhq.github.io/nft-card/)
 
 ## My process
 
@@ -68,7 +68,3 @@ Hover View
 - Website - [Gentry.com.ng](https://www.gentry.com.ng)
 - Frontend Mentor - [@GentryHQ](https://www.frontendmentor.io/profile/GentryHQ)
 - Twitter - [@iam_gentry](https://www.twitter.com/iam_gentry)
-
-
-
-
